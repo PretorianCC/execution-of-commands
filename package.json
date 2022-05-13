@@ -1,0 +1,21 @@
+{
+  "name": "execution-of-commands",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "serve": "nodemon ./src/app.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Sergey Kurganov",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "@types/node": "^17.0.32"
+  }
+}
